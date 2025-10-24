@@ -1,5 +1,7 @@
+import { FaClock, FaCut, FaSmile } from "react-icons/fa";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { HiOutlineSparkles } from "react-icons/hi";
 
 function AboutPage() {
   return (
@@ -44,19 +46,19 @@ function AboutPage() {
       <h2 className="text-3xl font-bold mb-10">Why Choose Us</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <div className="text-4xl mb-3">✂️</div>
+          <div className="text-4xl mb-3"><FaCut/></div>
           <p className="font-semibold text-gray-700">Precision Cuts</p>
         </div>
         <div>
-          <div className="text-4xl mb-3">😊</div>
+          <div className="text-4xl mb-3"><FaSmile/></div>
           <p className="font-semibold text-gray-700">Friendly Barbers</p>
         </div>
         <div>
-          <div className="text-4xl mb-3">⏰</div>
+          <div className="text-4xl mb-3"><FaClock/></div>
           <p className="font-semibold text-gray-700">On-Time Appointments</p>
         </div>
         <div>
-          <div className="text-4xl mb-3">💈</div>
+          <div className="text-4xl mb-3"><HiOutlineSparkles/></div>
           <p className="font-semibold text-gray-700">Modern & Classic Styles</p>
         </div>
       </div>
