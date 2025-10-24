@@ -8,12 +8,10 @@ import ServicesPage from "./ServicesPage";
 function Homepage() {
     return (
         <>
-        <ServicesPage/>
-        {/*
         <Hero/>
         <About/>
         <Services/>
-        <Footer/> */} 
+        <Footer/> 
         </>
     )
 }
