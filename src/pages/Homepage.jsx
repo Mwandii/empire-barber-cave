@@ -7,11 +7,10 @@ import AboutPage from "./AboutPage";
 function Homepage() {
     return (
         <>
-        <AboutPage/>
-        {/*<Hero/>
+        <Hero/>
         <About/>
         <Services/>
-        <Footer/> */}
+        <Footer/> 
         </>
     )
 }
