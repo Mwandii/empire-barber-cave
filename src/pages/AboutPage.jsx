@@ -42,27 +42,42 @@ function AboutPage() {
       </div>
     </section>
 
-    <section className="bg-gray-100 py-12 px-6 md:px-16 text-center">
-      <h2 className="text-3xl font-bold mb-10">Why Choose Us</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-        <div>
-          <div className="text-4xl mb-3"><FaCut/></div>
-          <p className="font-semibold text-gray-700">Precision Cuts</p>
-        </div>
-        <div>
-          <div className="text-4xl mb-3"><FaSmile/></div>
-          <p className="font-semibold text-gray-700">Friendly Barbers</p>
-        </div>
-        <div>
-          <div className="text-4xl mb-3"><FaClock/></div>
-          <p className="font-semibold text-gray-700">On-Time Appointments</p>
-        </div>
-        <div>
-          <div className="text-4xl mb-3"><HiOutlineSparkles/></div>
-          <p className="font-semibold text-gray-700">Modern & Classic Styles</p>
-        </div>
+    <section className="bg-gray-100 py-16 px-6 md:px-20 text-center">
+  <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-800">
+    Why Choose Us
+  </h2>
+
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div className="text-5xl text-gray-800 mb-4 flex justify-center">
+        <FaCut />
       </div>
-    </section>
+      <p className="font-semibold text-gray-700">Precision Cuts</p>
+    </div>
+
+    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div className="text-5xl text-gray-800 mb-4 flex justify-center">
+        <FaSmile />
+      </div>
+      <p className="font-semibold text-gray-700">Friendly Barbers</p>
+    </div>
+
+    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div className="text-5xl text-gray-800 mb-4 flex justify-center">
+        <FaClock />
+      </div>
+      <p className="font-semibold text-gray-700">On-Time Appointments</p>
+    </div>
+
+    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div className="text-5xl text-gray-800 mb-4 flex justify-center">
+        <HiOutlineSparkles />
+      </div>
+      <p className="font-semibold text-gray-700">Modern & Classic Styles</p>
+    </div>
+  </div>
+</section>
+
 
     <section className="py-12 px-6 md:px-16 text-center">
       <h2 className="text-3xl font-bold mb-4">Visit Us</h2>
