@@ -1,16 +1,16 @@
 const serviceData = [
-    {
-        id: 1,
-        name: "Hair Services",
-        Services: [
-            { name: "Haircut", price: 200 },
+  {
+    id: 1,
+    name: "Hair Services",
+    services: [
+      { name: "Haircut", price: 200 },
       { name: "Haircut + Head Massage", price: 300 },
       { name: "Dye", price: 200 },
       { name: "Retouch", price: 500 },
       { name: "Wash & Straighten", price: 150 },
-        ]
-    },
-    {
+    ],
+  },
+  {
     id: 2,
     name: "Facial & Skin Care",
     services: [
@@ -40,4 +40,6 @@ const serviceData = [
       { name: "Back Massage", price: 300 },
     ],
   },
-]
+];
+
+export default serviceData;
