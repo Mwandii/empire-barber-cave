@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function About() {
+
+  const navigate = useNavigate();
+
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-8 py-12  mx-auto mt-12">
   <div className="relative md:w-1/2 md:order-1">
@@ -18,8 +21,8 @@ function About() {
       precision, skill, and attention to detail. We combine timeless techniques
       with contemporary style to give you a look that defines confidence.
     </p>
-    <button className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
-      <Link to={'/aboutpage'}>About Us</Link>
+    <button onClick={() => navigate('/aboutpage')} className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
+      About Us
     </button>
   </div>
 </section>
