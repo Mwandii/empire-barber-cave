@@ -3,12 +3,12 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import AboutPage from "./AboutPage";
-import ServicesPage from "./ServicesPage";
+import ServicesCatPage from "./ServicesCatPage";
 
 function Homepage() {
     return (
         <>
-        <ServicesPage/>
+        <ServicesCatPage/>
         {/*
         <Hero/>
         <About/>
