@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between px-8 py-12  mx-auto mt-12">
@@ -17,7 +19,7 @@ function About() {
       with contemporary style to give you a look that defines confidence.
     </p>
     <button className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
-      Book Appointment
+      <Link to={'/aboutpage'}>About Us</Link>
     </button>
   </div>
 </section>

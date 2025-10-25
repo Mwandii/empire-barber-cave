@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Services() {
     return (
        <section className="flex flex-col md:flex-row items-center justify-between px-8 py-12 mx-auto">
@@ -8,7 +10,7 @@ function Services() {
       mastery to every style — ensuring you always look and feel your best.
     </p>
     <button className="bg-yellow-500 mb-6 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
-      Explore Services
+      <Link to={'/servicecatpage'}>Explore Services</Link>
     </button>
   </div>
   <div className="relative md:w-1/2 md:order-2">

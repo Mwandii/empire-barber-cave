@@ -8,12 +8,10 @@ import ServicesCatPage from "./ServicesCatPage";
 function Homepage() {
     return (
         <>
-        <ServicesCatPage/>
-        {/*
         <Hero/>
         <About/>
         <Services/>
-        <Footer/> */} 
+        <Footer/> 
         </>
     )
 }
