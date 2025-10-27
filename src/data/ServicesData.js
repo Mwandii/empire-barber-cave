@@ -14,6 +14,7 @@ const serviceData = [
   {
     id: 2,
     name: "Facial & Skin Care",
+    image: "https://images.unsplash.com/photo-1728949202477-bad2935775cb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
     services: [
       { name: "Face Scrubbing", price: 200 },
       { name: "Facial", price: 500 },
@@ -23,6 +24,7 @@ const serviceData = [
   {
     id: 3,
     name: "Nail Services",
+    image: "https://images.unsplash.com/photo-1720086196723-a1e0656a90a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5haWwlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Plain Gel", price: 400 },
       { name: "Tips + Gel", price: 700 },
@@ -35,6 +37,7 @@ const serviceData = [
   {
     id: 4,
     name: "Massage & Body Services",
+    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFzc2FnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Half Body Massage", price: 700 },
       { name: "Full Body Massage", price: 2000 },
