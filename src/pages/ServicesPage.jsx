@@ -13,10 +13,11 @@ function ServicesPage() {
 
   return (
     <>
-    <div className="bg-black">
+    <div className="bg-black py-4">
     <Navbar/>
     </div>
-    <main>
+    <h2 className="text-center ">Our Services</h2>
+    <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 place-items-center min-h-screen justify-center items-center">
       {serviceData.map((item) => (
         <div key={item.id} className="relative w-64 h-80 perspective cursor-pointer"
         onClick={() => handleFlip(item.id)}>
