@@ -12,7 +12,7 @@ function Services() {
       Every cut and treatment is guided by precision and passion. We bring
       mastery to every style — ensuring you always look and feel your best.
     </p>
-    <button onClick={() => navigate('/servicecatpage')} className="bg-yellow-500 mb-6 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
+    <button onClick={() => navigate('/servicepage')} className="bg-yellow-500 mb-6 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
       Explore Services
     </button>
   </div>

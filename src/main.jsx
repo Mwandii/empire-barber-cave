@@ -3,7 +3,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Homepage from './pages/Homepage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
-import ServicesCatPage from './pages/ServicesCatPage.jsx'
+import ServicesPage from './pages/ServicesPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     Component: AboutPage
   },
   {
-    path: '/servicecatpage',
-    Component: ServicesCatPage
+    path: '/servicepage',
+    Component: ServicesPage
   }
 ])
 
