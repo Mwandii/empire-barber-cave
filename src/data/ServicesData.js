@@ -2,6 +2,7 @@ const serviceData = [
   {
     id: 1,
     name: "Hair Services",
+    image: "https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhhaXIlMjBjdXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Haircut", price: 200 },
       { name: "Haircut + Head Massage", price: 300 },
