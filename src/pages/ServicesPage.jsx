@@ -17,11 +17,11 @@ function ServicesPage() {
     <Navbar/>
     </div>
     <div className="flex flex-col items-center">
-    <h2 className=" font-bold text-2xl md:text-4xl p-3 mb-4">Our Services</h2>
+    <h2 className=" font-bold text-2xl md:text-4xl p-3 mb-4 md:my-10">Our Services</h2>
     <p className="text-center text-md md:text-lg max-w-4xl mx-10 mb-8">At Empire Barber Cave, we take pride in delivering premium grooming experiences that bring out your best look.
 Below are some of the services we offer to keep you looking sharp and confident.</p>
     </div>
-    <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center my-6">
+    <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center p-6 md:my-10">
       {serviceData.map((item) => (
         <div key={item.id} className="relative w-64 h-80 perspective cursor-pointer"
         onClick={() => handleFlip(item.id)}>
