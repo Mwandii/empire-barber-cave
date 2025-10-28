@@ -21,7 +21,7 @@ function About() {
       precision, skill, and attention to detail. We combine timeless techniques
       with contemporary style to give you a look that defines confidence.
     </p>
-    <button onClick={() => navigate('/aboutpage')} className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition-all duration-300">
+    <button onClick={() => navigate('/aboutpage')} className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-black hover:text-yellow-400 hover:cursor-pointer transition-all duration-500">
       About Us
     </button>
   </div>

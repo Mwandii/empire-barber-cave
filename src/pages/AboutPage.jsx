@@ -9,12 +9,12 @@ function AboutPage() {
     <div className="bg-black py-2 px-1">
       <Navbar />
     </div>
-
+<div className="fade-in">
     <div>
       <img
         src="https://dailybarber.com/wp-content/uploads/Big-Als-Barbershop-Broomall-2.jpg"
         alt="Barber shop banner"
-        className="w-full h-[60vh] object-cover"
+        className="w-full h-[40vh] object-cover"
       />
     </div>
 
@@ -97,6 +97,7 @@ function AboutPage() {
     </section>
 
     <Footer />
+  </div>
   </div>
 );
 

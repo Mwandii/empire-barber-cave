@@ -7,12 +7,12 @@ import AboutPage from "./AboutPage";
 
 function Homepage() {
     return (
-        <>
+        <div className="fade-in">
         <Hero/>
         <About/>
         <Services/>
         <Footer/> 
-        </>
+        </div>
     )
 }
 

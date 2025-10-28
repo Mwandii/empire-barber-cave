@@ -17,3 +17,17 @@
   transform: rotateY(180deg);
 }
 }
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 5;
+  }
+}
+.fade-in {
+  animation: slideIn 0.8s ease-in-out forwards;
+}
