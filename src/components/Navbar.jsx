@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="flex justify-between items-center text-white relative z-10 px-4 py-3">
       <Link to={"/"}>
-        <h1 className="font-bold text-2xl sm:text-3xl hover:cursor-pointer">
+        <h1 className="font-black font-bebas text-2xl sm:text-3xl hover:cursor-pointer">
           Empire <span className="text-yellow-500">Barber</span> Cave
         </h1>
       </Link>
