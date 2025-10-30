@@ -43,7 +43,7 @@ function About() {
 
         <button
           onClick={() => navigate("/aboutpage")}
-          className="relative inline-block px-8 py-3 text-sm sm:text-base font-semibold tracking-wide border border-yellow-600 text-yellow-600 rounded-full overflow-hidden transition-all duration-500 group"
+          className="relative inline-block px-8 py-3 text-sm sm:text-base font-semibold hover:cursor-pointer tracking-wide border border-yellow-600 text-yellow-600 rounded-full overflow-hidden transition-all duration-500 group"
         >
           <span
             className="absolute inset-0 bg-linear-to-r from-yellow-500 to-yellow-700 -translate-x-full group-hover:translate-x-0 transition-transform duration-500"
