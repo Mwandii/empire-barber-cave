@@ -13,7 +13,7 @@ function AboutPage() {
     AOS.init({
       duration: 1000, // animation speed
       easing: "ease-in-out",
-      once: true, // only animate once per scroll
+      once: false, 
     });
   }, []);
 
@@ -36,7 +36,7 @@ function AboutPage() {
       {/* Headline */}
       <section
         data-aos="fade-up"
-        className="text-center py-10 bg-gradient-to-b from-white to-gray-50"
+        className="text-center py-10 bg-linear-to-b from-white to-gray-50"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           Look good. Feel better.
