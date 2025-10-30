@@ -7,7 +7,7 @@ import AboutPage from "./AboutPage";
 
 function Homepage() {
     return (
-        <div className="fade-in">
+        <div className="slide-in">
         <Hero/>
         <About/>
         <Services/>

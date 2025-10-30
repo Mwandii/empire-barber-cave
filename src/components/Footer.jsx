@@ -3,29 +3,46 @@ import { MdLocationOn } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 
 function Footer() {
-    return (
-  <footer className="bg-black text-gray-300 font-light px-6 py-8">
-    <div className="flex flex-col md:flex-row items-center justify-evenly max-w-6xl mx-auto space-y-4 md:space-y-0 text-sm">
-      <div className="flex items-center space-x-2 hover:text-white transition-colors">
-        <MdLocationOn className="text-lg text-gray-400" />
-        <p>Machakos</p>
-      </div>
-      <div className="flex items-center space-x-2 hover:text-white transition-colors">
-        <FaPhone className="text-lg text-gray-400" />
-        <p>+254712345678</p>
-      </div>
-      <div className="flex items-center space-x-2 hover:text-white transition-colors">
-        <SiGmail className="text-lg text-gray-400" />
-        <p>johndoe@gmail.com</p>
-      </div>
-    </div>
+  return (
+    <footer className="bg-black text-gray-300 px-6 py-10 font-raleway relative overflow-hidden">
+      {/* Gold Gradient Line */}
+      <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-500"></div>
 
-    <div className="border-t border-gray-800 mt-8 pt-4 text-center text-xs text-gray-500 tracking-wide">
-      © {new Date().getFullYear()} Empire Barber Cave. All rights reserved.
-    </div>
-  </footer>
-);
+      {/* Content Section */}
+      <div className="flex flex-col md:flex-row items-center justify-evenly max-w-6xl mx-auto space-y-5 md:space-y-0 text-sm relative z-10">
+        {/* Location */}
+        <div className="flex items-center space-x-2 hover:text-yellow-500 transition-all duration-300">
+          <MdLocationOn className="text-lg text-yellow-600" />
+          <p>Machakos</p>
+        </div>
 
+        {/* Phone */}
+        <div className="flex items-center space-x-2 hover:text-yellow-500 transition-all duration-300">
+          <FaPhone className="text-lg text-yellow-600" />
+          <p>+254 712 345 678</p>
+        </div>
+
+        {/* Email */}
+        <div className="flex items-center space-x-2 hover:text-yellow-500 transition-all duration-300">
+          <SiGmail className="text-lg text-yellow-600" />
+          <p>johndoe@gmail.com</p>
+        </div>
+      </div>
+
+      {/* Divider */}
+      <div className="border-t border-gray-800 mt-8 mb-3 opacity-40"></div>
+
+      {/* Copyright */}
+      <div className="text-center text-xs text-gray-500 tracking-wide">
+        © {new Date().getFullYear()}{" "}
+        <span className="text-yellow-600 font-semibold">Empire Barber Cave</span>.
+        All rights reserved.
+      </div>
+
+      {/* Subtle gold blur glow at the bottom */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[60px] bg-gradient-to-r from-yellow-500/10 via-yellow-600/10 to-yellow-500/10 blur-3xl pointer-events-none"></div>
+    </footer>
+  );
 }
 
 export default Footer;
