@@ -43,7 +43,7 @@ function Navbar() {
             : "top-[-400px] opacity-0 md:opacity-100"
         }`}
       >
-        {["About Us", "Services"].map((item, idx) => (
+        {["about us", "services"].map((item, idx) => (
           <Link
             key={idx}
             to={`/${item.toLowerCase().replace(" ", "")}page`}
