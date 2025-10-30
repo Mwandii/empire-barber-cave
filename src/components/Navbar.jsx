@@ -52,11 +52,13 @@ function Navbar() {
           <Link
             key={idx}
             to={link.path}
-            className="m-3 p-2 text-center text-lg font-raleway tracking-wide font-medium relative group transition-all duration-300"
             onClick={() => setMenuOpen(false)}
+            className="relative inline-flex items-center justify-center m-3 p-2 text-lg font-raleway tracking-wide font-medium transition-all duration-300 group"
           >
-            {link.name}
-            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-linear-to-r from-yellow-400 to-yellow-600 transition-all duration-500 group-hover:w-full"></span>
+            <span className="relative">
+              {link.name}
+              <span className="absolute left-0 -bottom-1 h-0.5 bg-linear-to-r from-yellow-400 to-yellow-600 w-0 group-hover:w-full transition-all duration-500"></span>
+            </span>
           </Link>
         ))}
       </div>
