@@ -63,8 +63,11 @@ function Hero() {
           delay={260}
         >
           <button
-            onClick={() => navigate("/servicepage")}
-            className="inline-flex items-center px-6 py-3 font-raleway font-semibold text-sm sm:text-base rounded-full shadow-[0_8px_30px_rgba(212,175,55,0.12)] bg-linear-to-r from-yellow-500 to-yellow-600 text-black transition-transform duration-300 hover:-translate-y-1"
+           onClick={() => {
+  const section = document.getElementById("services");
+  section?.scrollIntoView({ behavior: "smooth" });
+}}
+            className="inline-flex items-center px-6 py-3 font-raleway hover:cursor-pointer font-semibold text-sm sm:text-base rounded-full shadow-[0_8px_30px_rgba(212,175,55,0.12)] bg-linear-to-r from-yellow-500 to-yellow-600 text-black transition-transform duration-300 hover:-translate-y-1"
           >
             Explore Services
           </button>

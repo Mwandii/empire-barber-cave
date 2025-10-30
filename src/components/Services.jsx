@@ -5,7 +5,7 @@ function Services() {
   const navigate = useNavigate();
 
   return (
-    <section className="flex flex-col md:flex-row-reverse items-center justify-between bg-white text-black px-8 md:px-16 py-20 gap-12">
+    <section id="services" className="flex flex-col md:flex-row-reverse items-center justify-between bg-white text-black px-8 md:px-16 py-20 gap-12">
       {/* Image Side */}
       <AnimateOnScroll
         className="relative md:w-1/2"
