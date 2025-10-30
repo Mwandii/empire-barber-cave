@@ -8,7 +8,7 @@ function Hero() {
         >
             <Navbar/>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white font-light px-10 lg:px-25">
-                <h2 className="font-black font-cormorant text-4xl mt-10 text-yellow-500">Where Style Meets Precision</h2>
+                <h2 className="font-black font-bebas text-4xl mt-10 text-yellow-500">Where Style Meets Precision</h2>
                 <p className="font-light text-sm font-lato">Indulge in the art of modern grooming. From precision cuts and flawless fades to revitalizing facials, body scrubs, and massages — every service is crafted to help you look sharp, feel refreshed, and carry yourself with confidence.</p>
             </div>
         </section>
