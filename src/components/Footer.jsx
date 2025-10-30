@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-black text-gray-300 px-6 py-10 font-raleway relative overflow-hidden">
       {/* Gold Gradient Line */}
-      <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-500"></div>
+      <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-yellow-500 via-yellow-600 to-yellow-500"></div>
 
       {/* Content Section */}
       <div className="flex flex-col md:flex-row items-center justify-evenly max-w-6xl mx-auto space-y-5 md:space-y-0 text-sm relative z-10">
@@ -40,7 +40,7 @@ function Footer() {
       </div>
 
       {/* Subtle gold blur glow at the bottom */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[60px] bg-gradient-to-r from-yellow-500/10 via-yellow-600/10 to-yellow-500/10 blur-3xl pointer-events-none"></div>
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[60px] bg-linear-to-r from-yellow-500/10 via-yellow-600/10 to-yellow-500/10 blur-3xl pointer-events-none"></div>
     </footer>
   );
 }

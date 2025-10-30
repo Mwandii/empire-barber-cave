@@ -19,7 +19,7 @@ function Services() {
           alt="Grooming tools"
           className="w-full h-80 object-cover rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.1)]"
         />
-        <div className="absolute inset-0 bg-gradient-to-l from-black/30 via-transparent to-transparent rounded-lg"></div>
+        <div className="absolute inset-0 bg-linear-to-l from-black/30 via-transparent to-transparent rounded-lg"></div>
       </AnimateOnScroll>
 
       {/* Text Side */}

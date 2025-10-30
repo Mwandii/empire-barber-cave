@@ -20,7 +20,7 @@ function Navbar() {
       <Link to="/" onClick={() => setMenuOpen(false)}>
         <h1 className="font-cinzel text-2xl sm:text-3xl tracking-wider font-bold hover:cursor-pointer transition-all duration-500 hover:text-yellow-400">
           Empire{" "}
-          <span className="text-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text animate-pulse-slow">
+          <span className="text-transparent bg-linear-to-r from-yellow-400 to-yellow-600 bg-clip-text animate-pulse-slow">
             Barber
           </span>{" "}
           Cave
@@ -51,7 +51,7 @@ function Navbar() {
             onClick={() => setMenuOpen(false)}
           >
             {item}
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-yellow-400 to-yellow-600 transition-all duration-500 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-linear-to-r from-yellow-400 to-yellow-600 transition-all duration-500 group-hover:w-full"></span>
           </Link>
         ))}
       </div>

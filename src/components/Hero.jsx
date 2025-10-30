@@ -7,7 +7,7 @@ function Hero() {
 
   return (
     <section
-      className="relative h-[100vh] bg-cover bg-center text-white overflow-hidden"
+      className="relative h-screen bg-cover bg-center text-white overflow-hidden"
       style={{
         backgroundImage: `
           linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
