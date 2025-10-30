@@ -8,7 +8,7 @@ function AboutPage() {
   return (
     <div className="bg-[#f9f8f6] text-gray-800 font-raleway animate-fadeIn">
       {/* Navbar */}
-      <div className="bg-black py-2 px-1 shadow-md">
+      <div className="bg-black  px-1 shadow-md">
         <Navbar />
       </div>
 

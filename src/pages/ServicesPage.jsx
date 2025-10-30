@@ -14,7 +14,7 @@ function ServicesPage() {
   return (
     <div className="bg-[#f9f8f6] text-gray-800 font-raleway">
       {/* Navbar */}
-      <div className="bg-black py-2 px-1 shadow-md sticky top-0 z-50">
+      <div className="bg-black  px-1 shadow-md sticky top-0 z-50">
         <Navbar />
       </div>
 
@@ -56,7 +56,7 @@ function ServicesPage() {
                       className="w-full h-56 object-cover transform transition-transform duration-500 group-hover:scale-110"
                     />
                     {/* Gold hover overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-yellow-500 to-yellow-600 opacity-0 group-hover:opacity-90 transition-opacity duration-500"></div>
+                    <div className="absolute inset-0 bg-linear-to-br from-yellow-500 to-yellow-600 opacity-0 group-hover:opacity-90 transition-opacity duration-500"></div>
 
                     <div className="absolute bottom-4 left-0 right-0 text-center z-10">
                       <h2 className="text-lg font-semibold text-gray-800 group-hover:text-white transition-colors duration-500">
