@@ -11,6 +11,11 @@ function Navbar() {
     AOS.init({ duration: 800, easing: "ease-in-out", once: false });
   }, []);
 
+  const links = [
+    { name: "About Us", path: "/aboutpage" },
+    { name: "Services", path: "/servicepage" },
+  ];
+
   return (
     <nav
       data-aos="fade-down"
@@ -43,14 +48,14 @@ function Navbar() {
             : "top-[-400px] opacity-0 md:opacity-100"
         }`}
       >
-        {["about us", "services"].map((item, idx) => (
+        {links.map((link, idx) => (
           <Link
             key={idx}
-            to={`/${item.toLowerCase().replace(" ", "")}page`}
+            to={link.path}
             className="m-3 p-2 text-center text-lg font-raleway tracking-wide font-medium relative group transition-all duration-300"
             onClick={() => setMenuOpen(false)}
           >
-            {item}
+            {link.name}
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-linear-to-r from-yellow-400 to-yellow-600 transition-all duration-500 group-hover:w-full"></span>
           </Link>
         ))}
