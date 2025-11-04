@@ -16,7 +16,7 @@ function AboutPage() {
       <AnimateOnScroll>
         <div className="relative w-full h-[45vh]">
           <img
-            src="https://dailybarber.com/wp-content/uploads/Big-Als-Barbershop-Broomall-2.jpg"
+            src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFyYmVyc2hvcHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
             alt="Barber shop banner"
             className="w-full h-full object-cover brightness-90"
           />
@@ -44,7 +44,7 @@ function AboutPage() {
       <section className="flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-16 py-16 bg-white shadow-sm">
         <AnimateOnScroll className="w-full md:w-1/2" delay={100}>
           <img
-            src="https://images.unsplash.com/photo-1589381855733-01bb5380dedf?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600"
+            src="https://d2zdpiztbgorvt.cloudfront.net/region1/us/407491/3c98dbbfb9cc4de7b1e9c86a9bbe49b3-Empire-Barbershop-biz-photo.jpeg"
             alt="Our Story"
             className="w-full rounded-xl shadow-lg object-cover border border-yellow-100"
           />

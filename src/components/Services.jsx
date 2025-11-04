@@ -15,7 +15,7 @@ function Services() {
         delay={100}
       >
         <img
-          src="https://images.unsplash.com/photo-1520336811552-42878b67d25f?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=800"
+          src="https://calabashspa.com/wp-content/uploads/2021/11/Calabash-spa-and-salon-Afro-hair.jpg"
           alt="Grooming tools"
           className="w-full h-80 object-cover rounded-lg shadow-[0_4px_25px_rgba(0,0,0,0.1)]"
         />

@@ -2,7 +2,7 @@ const serviceData = [
   {
     id: 1,
     name: "Hair Services",
-    image: "https://images.unsplash.com/photo-1614838280822-4fdea45dc3c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhhaXIlMjBjdXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    image: "https://images.unsplash.com/photo-1633990700440-30a1f452a95b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFpciUyMHNlcnZpY2VzJTIwYWZyaWNhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Haircut", price: 200 },
       { name: "Haircut + Head Massage", price: 300 },
@@ -14,7 +14,7 @@ const serviceData = [
   {
     id: 2,
     name: "Facial & Skin Care",
-    image: "https://images.unsplash.com/photo-1728949202477-bad2935775cb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470",
+    image: "https://images.unsplash.com/photo-1551382031-62db072aed3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZhY2lhbCUyMGFuZCUyMHNraW4lMjBjYXJlJTIwYWZyaWNhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Face Scrubbing", price: 200 },
       { name: "Facial", price: 500 },
@@ -24,7 +24,7 @@ const serviceData = [
   {
     id: 3,
     name: "Nail Services",
-    image: "https://images.unsplash.com/photo-1720086196723-a1e0656a90a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5haWwlMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+    image: "https://media.istockphoto.com/id/1350573862/photo/nail-extension-process-in-beauty-salon.webp?a=1&b=1&s=612x612&w=0&k=20&c=chV9nBeE7tON2CvIQ1zCaV0772temrxiovuXVRTK2jk=",
     services: [
       { name: "Plain Gel", price: 400 },
       { name: "Tips + Gel", price: 700 },
@@ -37,7 +37,7 @@ const serviceData = [
   {
     id: 4,
     name: "Massage & Body Services",
-    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFzc2FnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+    image: "https://plus.unsplash.com/premium_photo-1661319012152-7f81810cbef6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1hc3NhZ2UlMjBhbmQlMjBib2R5JTIwc2VydmljZXMlMjBhZnJpY2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
     services: [
       { name: "Half Body Massage", price: 700 },
       { name: "Full Body Massage", price: 2000 },

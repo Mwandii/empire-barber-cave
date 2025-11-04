@@ -16,7 +16,7 @@ function About() {
       >
         <div className="overflow-hidden rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.12)]">
           <img
-            src="https://images.unsplash.com/photo-1732314287829-f1da598a5b77?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600"
+            src="https://monaspa.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-01T140625.018.jpg"
             alt="Barber tools"
             className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105"
           />

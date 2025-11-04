@@ -11,7 +11,7 @@ function Hero() {
       style={{
         backgroundImage: `
           linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-          url('https://images.unsplash.com/photo-1695173122226-3a932002ab33?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1400')
+          url('https://images.squarespace-cdn.com/content/v1/61bab0ee87d15a4c088f14ba/05224891-1482-453c-9bc1-9be0a2ecab19/IMG_0017.JPG')
         `,
       }}
     >
