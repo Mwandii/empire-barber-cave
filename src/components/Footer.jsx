@@ -19,13 +19,13 @@ function Footer() {
         {/* Phone */}
         <div className="flex items-center space-x-2 hover:text-yellow-500 transition-all duration-300">
           <FaPhone className="text-lg text-yellow-600" />
-          <p>+254 712 345 678</p>
+          <p>+254 793 506 678</p>
         </div>
 
         {/* Email */}
         <div className="flex items-center space-x-2 hover:text-yellow-500 transition-all duration-300">
           <SiGmail className="text-lg text-yellow-600" />
-          <p>johndoe@gmail.com</p>
+          <p>empirebarbercave@gmail.com</p>
         </div>
       </div>
 
