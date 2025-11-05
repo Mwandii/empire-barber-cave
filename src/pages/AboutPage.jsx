@@ -108,14 +108,16 @@ function AboutPage() {
 
         <AnimateOnScroll delay={260}>
           <div className="w-full h-80 rounded-xl overflow-hidden shadow-lg border border-yellow-100">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7976.839628373717!2d37.265963488741335!3d-1.51707114446871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b9b8975973f%3A0xc0ebf688b5216ed3!2sChicken%20Inn%20Machakos!5e0!3m2!1sen!2ske!4v1761321866012!5m2!1sen!2ske"
-              className="w-full h-full border-0"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+           <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.1048206321399!2d37.265312200000004!3d-1.5173594999999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f80cd918eb115%3A0x6da6c130d8d806e2!2sLau%20Guest%20House%20Machakos!5e0!3m2!1sen!2ske!4v1762342945566!5m2!1sen!2ske"
+  style={{ border: 0, width: '100%', height: '100%' }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
+
+</div>
         </AnimateOnScroll>
       </section>
 

@@ -39,7 +39,7 @@ const serviceData = [
     name: "Massage & Body Services",
     image: "https://plus.unsplash.com/premium_photo-1661319012152-7f81810cbef6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1hc3NhZ2UlMjBhbmQlMjBib2R5JTIwc2VydmljZXMlMjBhZnJpY2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
     services: [
-      { name: "Half Body Massage", price: 700 },
+      { name: "Half Body Massage", price: 1000 },
       { name: "Full Body Massage", price: 2000 },
       { name: "Back Massage", price: 300 },
     ],
